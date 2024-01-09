@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- шрифты -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- !!! необходимо переименовать index.html на актуальный в сбоке и удалить коментарий -->
+    <!-- !!! не забыть добавить favicon и удалить коментарий -->
+    <!-- поменять title на актуальный и удалить коментарий -->
+    <title>Office</title>
+</head>
+
+<body>
+    <main class="main">
+        <section class="info">
+            <div class="container">
+                <div class="d-flex">
+                    <div class="info__avatar">
+
+                        <img class="info__img" src="img/photoOfTheArtist.jpg" />
+
+                        <div class="info__socialNetworks">
+                            <a href="#"><img src="img/boosty.svg" alt="boosty"></a>
+                            <a href="#"><img src="img/vk.svg" alt="vk"></a>
+                            <a href="#"><img src="img/telegram.svg" alt="telegram"></a>
+                            <a href="#"><img src="img/odnoklasniki.svg" alt="odnoklasniki"></a>
+                        </div>
+
+                    </div>
+                    <div class="info__list">
+                        <ul class="info__content">
+                            <li id="info__surname">Фамилия</li>
+                            <li id="info__firstname">Имя</li>
+                            <li id="info__nickname">Псевдоним/сценическое имя</li>
+                            <li id="info__phoneNumber">Номер телефона</li>
+                            <li id="info__genre">Жанр выступлений</li>
+                            <li id="info__email">Электронная почта</li>
+                            <li id="info__aboutMe">О себе Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Deleniti quia labore
+                                recusandae dolorem doloribus ut expedita possimus et totam, dicta ad? Necessitatibus
+                                numquam molestiae officiis praesentium dolor itaque eum culpa.</li>
+                        </ul>
+                    </div>
+                    <div class="info__buttons">
+
+                        <a class="info__editInformation btn" href="form.html">Редактировать информацию</a>
+                        <a class="info__addSocialNetworks btn" href="#">Добавить соцсети</a>
+                        <a class="info__addPerformances btn" href="#">Добавить выступление</a>
+
+                    </div>
+                </div>
+                <!-- временно отключил белую кляксу -->
+                <!-- белое пятно -->
+                <!-- <img class="info__blotch1" src="img/blotch1.svg" alt=""> -->
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="container">
+                <div class="d-flex">
+                    <!-- серое пятно -->
+                    <img class="gallery__blotch2" src="img/blotch2.svg" alt="">
+
+                    <div class="gallery__QrCode">
+                        <img src="img/QrCode.png" alt="QrCode">
+                    </div>
+
+                    <div class="gallery__slider">
+                        <img src="img/photoOfTheArtist.jpg" alt="">
+                        <img src="img/randomPhoto4.jpg" alt="">
+                        <img src="img/randomPhoto5.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

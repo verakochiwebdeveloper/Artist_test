@@ -1,0 +1,32 @@
+html,
+body {
+    height: 100%;
+
+    /* поменять цвет на переменную в сборке и удалить коментарий */
+    background: #2A2929;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+/* основной контейнер */
+.container {
+    margin: 0 auto;
+    padding: 0 50px;
+    position: relative;
+    width: 1140px;
+
+    border-left: 4px solid #000;
+    border-right: 4px solid #000;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    border-bottom: 3px solid #DBFE01;
+}
+
